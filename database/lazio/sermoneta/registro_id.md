@@ -1,9 +1,9 @@
-# REGISTRO ID - KWF / ATLAS•EVENTA
+# REGISTRY ID - KWF / ATLAS•EVENTA
 
-Contatore sequenziale progressivo per l'univocità delle entità (eventi, istanze, luoghi).
+Authoritative sequential ledger for entity uniqueness.
 
-## Regole Fondamentali
-* EVENT_INDEX: ID numerico sequenziale (Partenza: 1).
-* VINCOLO: È vietato creare ID saltati, duplicati o riordinati.
-* AUTORITÀ: In caso di dubbi sull'ultimo ID, fermare il processo e verificare.
-* STATO ATTUALE: Ultimo ID utilizzato = 0.
+## Operational Rules
+* EVENT_INDEX: Sequential numerical ID (Start: 1).
+* CONSTRAINT: Creation of skipped, duplicated, or reordered IDs is strictly prohibited.
+* AUTHORITY: In case of ambiguity, initiate HARD-STOP and manual reconciliation.
+* CURRENT STATUS: Last valid ID = 1.
