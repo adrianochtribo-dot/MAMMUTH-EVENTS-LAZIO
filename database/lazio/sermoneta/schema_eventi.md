@@ -17,3 +17,8 @@ Master table for event entities, enforcing Atomic Separation. Non-compliant data
 1. No additional fields are permitted.
 2. Data not conforming to these fields must be rejected.
 3. Incomplete event = Do not create, park the entry.
+## Data Registry
+
+| EVENT_ID | INSTANCE_ID | PLACE_ID | EVENT_NAME_NORMALIZED | CATEGORY | DATE_START | DATE_END |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0001 | 0001-01 | 059027 | Festa del Santo Patrono | Religious Rites | 2026-06-15 | 2026-06-15 |
